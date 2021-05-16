@@ -18,3 +18,6 @@ val file = new java.io.PrintStream("filename.csv")
 directorRdd.collect.foreach{file.println(_)}
 file.close
 ```
+
+## Things to note
+The dataset has quite a few errors which need to be neglected. So only a simple analysis is being done.
